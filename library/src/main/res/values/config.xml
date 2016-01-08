@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="default_extended_edit_text_clear_drawable">@drawable/ic_clear_black_24dp</drawable>
+    <drawable name="default_extended_edit_text_eye_drawable">@drawable/ic_visibility_black_24dp</drawable>
+    <drawable name="default_extended_edit_text_eye_off_drawable">@drawable/ic_visibility_off_black_24dp</drawable>
+    <dimen name="default_extended_edit_text_button_margin">8dp</dimen>
+</resources>

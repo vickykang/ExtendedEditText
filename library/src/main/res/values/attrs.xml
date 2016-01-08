@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExtendedEditText">
+        <!-- supports clear or not -->
+        <attr name="enableClear" format="boolean" />
+        <!-- drawable for btn to clear all text inputted -->
+        <attr name="clearDrawable" format="reference" />
+        <!-- supports viewing password or not  -->
+        <attr name="enableEye" format="boolean" />
+        <!-- drawable for btn when show password-->
+        <attr name="eyeDrawable" format="reference" />
+        <!-- drawable for btn when hide password -->
+        <attr name="eyeOffDrawable" format="reference" />
+        <!-- margin of button -->
+        <attr name="buttonMargin" format="dimension" />
+        <!-- if true, buttons are always in the center;
+             if false, the gravity of buttons are the same with the view's gravity. -->
+        <attr name="buttonAlwaysCenter" format="boolean" />
+    </declare-styleable>
+</resources>
